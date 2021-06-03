@@ -1,6 +1,5 @@
 {
-  "_from": "ionic4-rating",
-  "_id": "ionic4-rating@1.0.9",
+  "_from": "ionic-emoji-rating",
   "_inBundle": false,
   "_integrity": "sha512-mv5z6IODHYC5J2caiowFEYYhXDUPzwGpfA0aSku0Fikpzcg418WOwZvfygW5NQ2/mX3jSZjwfxRuzSXcR+EDXw==",
   "_location": "/ionic4-rating",
@@ -8,9 +7,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "ionic4-rating",
-    "name": "ionic4-rating",
-    "escapedName": "ionic4-rating",
+    "raw": "ionic-emoji-rating",
+    "name": "ionic-emoji-rating",
+    "escapedName": "ionic-emoji-rating",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,19 +18,12 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ionic4-rating/-/ionic4-rating-1.0.9.tgz",
-  "_shasum": "13e9242710d64eb4ffa9ed7bfd086447cc4fecb1",
-  "_spec": "ionic4-rating",
-  "_where": "/Users/kucharmoulod/Desktop/SalesApp2020",
-  "author": {
-    "name": "Lincon Dias"
-  },
+  "author": "Kuchar Moulod",
   "bugs": {
     "url": "https://github.com/lincond/ionic-rating/issues"
   },
-  "bundleDependencies": false,
   "deprecated": false,
-  "description": "A native Ionic 4 rating stars component.",
+  "description": "Emoji rating component for Ionic",
   "devDependencies": {
     "@angular-devkit/core": "^7.2.1",
     "@angular-devkit/schematics": "^7.2.1",
@@ -52,27 +44,26 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/lincond/ionic-rating",
+  "homepage": "https://github.com/kucharmoulod/ionic-emoji-rating",
   "keywords": [
     "Ionic",
-    "Ionic 4",
     "Angular",
     "Rating",
-    "Stars",
+    "Emojis",
     "Component"
   ],
   "license": "MIT",
   "main": "./dist/index.js",
-  "name": "ionic4-rating",
+  "name": "ionic-emoji-rating",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lincond/ionic-rating.git"
+    "url": "git+https://github.com/kucharmoulod/ionic-emoji-rating.git"
   },
   "scripts": {
     "build": "rm -rf dist && npm run ngc",
     "ngc": "ngc",
     "publishPackage": "npm run build && npm publish"
   },
-  "version": "1.0.9"
+  "version": "1.0.12"
 }
