@@ -65,5 +65,5 @@
     "ngc": "ngc",
     "publishPackage": "npm run build && npm publish"
   },
-  "version": "1.0.13"
+  "version": "1.0.14"
 }
