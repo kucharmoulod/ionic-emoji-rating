@@ -1,28 +1,37 @@
 {
-  "name": "ionic-emoji-rating",
-  "version": "1.0.11",
-  "author": "Kuchar Moulod",
-  "description": "A native Ionic emoji rating component forked from ionic-rating. Replaces star rating with an Emoji rating system.",
-  "homepage": "https://github.com/kucharmoulod/ionic-emoji-rating",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kucharmoulod/ionic-emoji-rating.git"
+  "_from": "ionic4-rating",
+  "_id": "ionic4-rating@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-mv5z6IODHYC5J2caiowFEYYhXDUPzwGpfA0aSku0Fikpzcg418WOwZvfygW5NQ2/mX3jSZjwfxRuzSXcR+EDXw==",
+  "_location": "/ionic4-rating",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ionic4-rating",
+    "name": "ionic4-rating",
+    "escapedName": "ionic4-rating",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "private": false,
-  "license": "MIT",
-  "main": "./dist/index.js",
-  "scripts": {
-    "ngc": "ngc",
-    "build": "rm -rf dist && npm run ngc",
-    "publishPackage": "npm run build && npm publish"
-  },
-  "keywords": [
-    "Ionic",
-    "Emoji",
-    "Angular",
-    "Rating",
-    "Component"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
+  "_resolved": "https://registry.npmjs.org/ionic4-rating/-/ionic4-rating-1.0.9.tgz",
+  "_shasum": "13e9242710d64eb4ffa9ed7bfd086447cc4fecb1",
+  "_spec": "ionic4-rating",
+  "_where": "/Users/kucharmoulod/Desktop/SalesApp2020",
+  "author": {
+    "name": "Lincon Dias"
+  },
+  "bugs": {
+    "url": "https://github.com/lincond/ionic-rating/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A native Ionic 4 rating stars component.",
   "devDependencies": {
     "@angular-devkit/core": "^7.2.1",
     "@angular-devkit/schematics": "^7.2.1",
@@ -40,7 +49,30 @@
     "typescript": "^3.1.1",
     "zone.js": "^0.8.26"
   },
-  "bugs": {
-    "url": "https://github.com/kucharmoulod/ionic-emoji-rating/issues"
-  }
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/lincond/ionic-rating",
+  "keywords": [
+    "Ionic",
+    "Ionic 4",
+    "Angular",
+    "Rating",
+    "Stars",
+    "Component"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "ionic4-rating",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincond/ionic-rating.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist && npm run ngc",
+    "ngc": "ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "version": "1.0.9"
 }

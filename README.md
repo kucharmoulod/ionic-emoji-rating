@@ -1,7 +1,6 @@
-# ionic-emoji-rating
+# ionic4-rating
 
-A native Ionic emoji rating component forked from [ionic-rating](https://www.npmjs.com/package/ionic-rating).
-Replaces star rating with this Emoji rating system: 😠 🙁 😐 😃 🤩
+A native Ionic 4 rating stars component forked from [ionic-rating](https://www.npmjs.com/package/ionic-rating) to support new Ionic 4 components.
 
 ## How to install?
 
@@ -18,7 +17,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 // Import ionic-rating module
-import { IonicRatingModule } from 'ionic4-rating';
+import { IonicRatingModule } from 'ionic-rating';
 
 @NgModule({
   declarations: [
@@ -45,7 +44,7 @@ If you are using `Lazy Loading` in your application, add the `IonicRatingModule`
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { ProfilePage } from './profile';
-import { IonicRatingModule } from "ionic4-rating";
+import { IonicRatingModule } from "ionic-rating";
 
 @NgModule({
   declarations: [
@@ -92,7 +91,19 @@ Reactive Forms:
 </rating>
 ````
 
+### You may also need to customize component styles:
+
+```
+rating {
+  ion-icon {
+    color: gray;
+
+    &.filled {
+      color: #ffb400;
+    }
+  }
+}
+```
 
 &#9400; Rodaina Mohamed 2018  
 Updated by Lincon Dias 2019 to Ionic 4
-Forked by Kuchar Moulod to implement Emoji rating system
