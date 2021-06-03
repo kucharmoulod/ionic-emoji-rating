@@ -1,12 +1,12 @@
 {
-  "name": "ionic4-rating",
-  "version": "1.0.9",
-  "author": "Lincon Dias",
-  "description": "A native Ionic 4 rating stars component.",
-  "homepage": "https://github.com/lincond/ionic-rating",
+  "name": "ionic-emoji-rating",
+  "version": "1.0.10",
+  "author": "Kuchar Moulod",
+  "description": "A native Ionic emoji rating component forked from ionic-rating. Replaces star rating with an Emoji rating system.",
+  "homepage": "https://github.com/kucharmoulod/ionic-emoji-rating",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lincond/ionic-rating.git"
+    "url": "git+https://github.com/kucharmoulod/ionic-emoji-rating.git"
   },
   "private": false,
   "license": "MIT",
@@ -21,10 +21,9 @@
   },
   "keywords": [
     "Ionic",
-    "Ionic 4",
+    "Emoji",
     "Angular",
     "Rating",
-    "Stars",
     "Component"
   ],
   "devDependencies": {
@@ -43,5 +42,8 @@
     "rxjs": "^6.4.0",
     "typescript": "^3.1.1",
     "zone.js": "^0.8.26"
+  },
+  "bugs": {
+    "url": "https://github.com/kucharmoulod/ionic-emoji-rating/issues"
   }
 }

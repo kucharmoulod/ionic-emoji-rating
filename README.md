@@ -95,3 +95,4 @@ Reactive Forms:
 
 &#9400; Rodaina Mohamed 2018  
 Updated by Lincon Dias 2019 to Ionic 4
+Forked by Kuchar Moulod to implement Emoji rating system
