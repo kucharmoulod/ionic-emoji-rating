@@ -1,10 +1,10 @@
 # ionic4-rating
 
-A native Ionic 4 rating stars component forked from [ionic-rating](https://www.npmjs.com/package/ionic-rating) to support new Ionic 4 components.
+A native Ionic emoji rating component forked from ionic-rating. Replaces star rating with this Emoji rating system: 😠 🙁 😐 😃 🤩
 
 ## How to install?
 
-`npm i ionic4-rating`
+`npm i ionic-emoji-rating`
 
 ## How to use:
 
@@ -107,3 +107,4 @@ rating {
 
 &#9400; Rodaina Mohamed 2018  
 Updated by Lincon Dias 2019 to Ionic 4
+Updated by Kuchar Moulod 2021 to implement Emoji rating system
