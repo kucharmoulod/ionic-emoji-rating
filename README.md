@@ -1,4 +1,4 @@
-# ionic4-rating
+# ionic-emoji-rating
 
 A native Ionic emoji rating component forked from ionic-rating. Replaces star rating with this Emoji rating system: 😠 🙁 😐 😃 🤩
 
