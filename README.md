@@ -1,6 +1,7 @@
-# ionic4-rating
+# ionic-emoji-rating
 
-A native Ionic 4 rating stars component forked from [ionic-rating](https://www.npmjs.com/package/ionic-rating) to support new Ionic 4 components.
+A native Ionic emoji rating component forked from [ionic-rating](https://www.npmjs.com/package/ionic-rating).
+Replaces star rating with this Emoji rating system: 😠 🙁 😐 😃 🤩
 
 ## How to install?
 
@@ -91,19 +92,6 @@ Reactive Forms:
 </rating>
 ````
 
-### You may also need to customize component styles:
-
-```
-rating {
-  ion-icon {
-    color: gray;
-
-    &.filled {
-      color: #ffb400;
-    }
-  }
-}
-```
 
 &#9400; Rodaina Mohamed 2018  
 Updated by Lincon Dias 2019 to Ionic 4
