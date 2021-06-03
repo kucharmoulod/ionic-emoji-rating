@@ -1,6 +1,6 @@
 {
   "name": "ionic-emoji-rating",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "Kuchar Moulod",
   "description": "A native Ionic emoji rating component forked from ionic-rating. Replaces star rating with an Emoji rating system.",
   "homepage": "https://github.com/kucharmoulod/ionic-emoji-rating",
@@ -11,9 +11,6 @@
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf dist && npm run ngc",
