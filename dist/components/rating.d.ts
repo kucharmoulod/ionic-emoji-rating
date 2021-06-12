@@ -7,7 +7,7 @@ export declare class RatingComponent implements ControlValueAccessor {
     rateChange: EventEmitter<number>;
     hoverRate: number;
     _onChange: Function;
-    onClick(rate: any): void;
+    onClick(event: any, rate: any): void;
     writeValue(value: any): void;
     registerOnChange(fn: (_: any) => void): void;
     registerOnTouched(fn: any): void;
